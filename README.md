@@ -1,14 +1,13 @@
 # Mochi Health
 
 A simple Next.js project that tracks weights and notes using Supabase.
+Used react, rechart.js, supabase
 
 ---
 
 ## Start / End Time
 - **Start:** 5:23pm
 - **End:** 7:22pm
-
-* I spent extra time creating this read.me out of the 2 hours
 
 ---
 

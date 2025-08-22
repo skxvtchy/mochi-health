@@ -29,7 +29,7 @@ export default function Tracker() {
         <div className="p-4  bg-white rounded-lg border-1 border-gray-200">
           <div className="flex justify-between items-center">
             <h3 className="text-sm text-gray-600">Current Weight</h3>
-            <p className="text-sm text-green-600 font-medium">-12.5lbs</p>
+            <p className="text-sm text-green-600 font-medium">-161lbs</p>
           </div>
 
           <p className="text-2xl font-bold text-gray-900 pb-5">184 lbs</p>

@@ -1,6 +1,5 @@
 "use client";
 
-import { create } from "domain";
 import { useState, useEffect } from "react";
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
@@ -212,7 +211,7 @@ export function Table() {
                   Date
                 </th>
                 <th className="text-left py-3 px-4 font-medium text-gray-900 text-sm">
-                  Weight/lbs
+                  Weight
                 </th>
                 <th className="text-left py-3 px-4 font-medium text-gray-900 text-sm">
                   Change %
@@ -264,7 +263,7 @@ export function Table() {
                         className="w-full px-2 py-1 border border-gray-300 rounded text-sm"
                       />
                     ) : (
-                      entry.weight
+                      entry.weight + " lbs"
                     )}
                   </td>
                   <td className="py-3 px-4 text-sm font-medium">

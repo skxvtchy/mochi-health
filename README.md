@@ -13,7 +13,14 @@ Used react, rechart.js, supabase
 
 ## 🚀 How to Run Locally
 
-1. Clone the repository:
+Before running any commands, make sure you are in the correct project folder where `package.json` exists. You can check:
+
+```bash
+ls   # lists files in the current folder should see package.json
+cd <project-folder>   # navigate to the correct project folder if needed
+```
+
+1. In your chosen ide:
 
 ```bash
 npm install
